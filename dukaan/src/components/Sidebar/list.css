@@ -1,0 +1,40 @@
+.list{
+   width: 208px;
+   height: 580px;
+   display: flex;
+   flex-direction: column;
+   margin-left: 8px;
+   margin-top:24px ;
+   
+   font-size: 12px;
+}
+
+.list span{
+    padding: 8px 16px 8px 16px;
+    height: 36px;
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+    cursor: pointer;
+}
+.list span:hover{
+    color: #6980d2;
+}
+
+.list span:active{
+    transform: scale(0.98);
+}
+
+.list span button{
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+
+
+

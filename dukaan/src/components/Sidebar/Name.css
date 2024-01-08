@@ -1,0 +1,34 @@
+.customer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.customer a{
+    color: #f5f0f0;
+}
+.btn{
+    
+    width: 20px;
+    height: 20px;
+}
+.btn button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn button i:active{
+  transform: scale(0.98);
+}
+
+.customer .name {
+   width: 102px;
+   
+}
+
+.customer .name h4 {
+   margin-bottom: 2px;
+ }

@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.dash{
+    display: flex;
+   
+}
+
+.sidebar{
+    width: 224px;
+    color: aliceblue;
+    background-color: #1E2640;
+    height: 100vh;
+
+}
+
+.main{
+    flex: 3;
+ 
+
+}

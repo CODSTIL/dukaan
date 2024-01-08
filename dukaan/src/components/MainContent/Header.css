@@ -1,0 +1,82 @@
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 32px 12px 32px;
+    width: 1320px;
+    background-color: #ededec;
+    height: 64px;
+    left: 224px;
+}
+/* 
+width: Fixed (1,216px)
+height: Hug (64px)
+left: 224px
+padding: 12px, 32px, 12px, 32px
+border: 0px, 0px, 1px, 0px
+gap: 16px
+
+*/
+
+.pay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pay button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    padding: 0.7px, 0.7px, 0.7px, 0.7px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.pay h5{
+    font-family: Galano Grotesque;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 16px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+/* 
+ //styleName: Heading/H5;
+font-family: Galano Grotesque;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+*/
+
+ .input input{
+    border-radius: 6px;
+    width: 400px;
+    padding: 9px 16px 9px 16px;
+    gap: 8px;
+    background-color: #F2F2F2;
+    border: none;
+    outline: none;
+}
+
+.notification button{
+    border-radius:50% ;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.notification button:active{
+    transform: scale(.98);
+}

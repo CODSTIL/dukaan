@@ -1,0 +1,42 @@
+.table{
+    
+    width: 1180px;
+    height: 600px;
+    margin: 20px 0px 0px 37px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.transaction h3{
+    font-size: 20px;
+    line-height: 28px;
+    color:#1A181E;
+}
+
+.pay-refund{
+    display: flex;
+    gap: 5px;
+    
+}
+
+.chart-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.charts{
+    margin-top: 10px;
+}
+
+.charts th{
+    width: 500px;
+    background-color: rgb(187, 184, 190);
+}
+.charts td{
+    text-align: center;
+    padding: 5px;
+}
+
+.charts td{
+    border-bottom: 2px solid rgb(202, 199, 199);
+}
